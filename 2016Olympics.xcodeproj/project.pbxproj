@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8A7B1ED1B203CA20073DC75 /* EventsBL.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7B1DC1B203CA20073DC75 /* EventsBL.m */; };
+		D8A7B1EE1B203CA20073DC75 /* ScheduleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7B1DE1B203CA20073DC75 /* ScheduleBL.m */; };
+		D8A7B1EF1B203CA20073DC75 /* BaseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7B1E11B203CA20073DC75 /* BaseDAO.m */; };
+		D8A7B1F01B203CA20073DC75 /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7B1E31B203CA20073DC75 /* DBHelper.m */; };
+		D8A7B1F11B203CA20073DC75 /* EventsDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7B1E51B203CA20073DC75 /* EventsDAO.m */; };
+		D8A7B1F21B203CA20073DC75 /* ScheduleDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7B1E71B203CA20073DC75 /* ScheduleDAO.m */; };
+		D8A7B1F31B203CA20073DC75 /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7B1EA1B203CA20073DC75 /* Events.m */; };
+		D8A7B1F41B203CA20073DC75 /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7B1EC1B203CA20073DC75 /* Schedule.m */; };
 		D8D917B91A78BC1E00490405 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D917B81A78BC1E00490405 /* main.m */; };
 		D8D917BC1A78BC1E00490405 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D917BB1A78BC1E00490405 /* AppDelegate.m */; };
 		D8D917BF1A78BC1E00490405 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D917BE1A78BC1E00490405 /* ViewController.m */; };
@@ -14,14 +22,6 @@
 		D8D917C41A78BC1E00490405 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D917C31A78BC1E00490405 /* Images.xcassets */; };
 		D8D917C71A78BC1E00490405 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D917C51A78BC1E00490405 /* LaunchScreen.xib */; };
 		D8D917D31A78BC1E00490405 /* _016OlympicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D917D21A78BC1E00490405 /* _016OlympicsTests.m */; };
-		D8D917E21A78BC6E00490405 /* EventsBL.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D917DF1A78BC6E00490405 /* EventsBL.m */; };
-		D8D917E31A78BC6E00490405 /* ScheduleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D917E11A78BC6E00490405 /* ScheduleBL.m */; };
-		D8D917F21A78BC8300490405 /* BaseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D917E61A78BC8300490405 /* BaseDAO.m */; };
-		D8D917F31A78BC8300490405 /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D917E81A78BC8300490405 /* DBHelper.m */; };
-		D8D917F41A78BC8300490405 /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D917EA1A78BC8300490405 /* Events.m */; };
-		D8D917F51A78BC8300490405 /* EventsDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D917EC1A78BC8300490405 /* EventsDAO.m */; };
-		D8D917F61A78BC8300490405 /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D917EF1A78BC8300490405 /* Schedule.m */; };
-		D8D917F71A78BC8300490405 /* ScheduleDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D917F11A78BC8300490405 /* ScheduleDAO.m */; };
 		D8D917FB1A78BC8A00490405 /* create_load.sql in Resources */ = {isa = PBXBuildFile; fileRef = D8D917F91A78BC8A00490405 /* create_load.sql */; };
 		D8D917FC1A78BC8A00490405 /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8D917FA1A78BC8A00490405 /* DBConfig.plist */; };
 		D8D918181A78BD0A00490405 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D918161A78BD0A00490405 /* libGoogleAdMobAds.a */; };
@@ -124,6 +124,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8A7B1DB1B203CA20073DC75 /* EventsBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsBL.h; sourceTree = "<group>"; };
+		D8A7B1DC1B203CA20073DC75 /* EventsBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsBL.m; sourceTree = "<group>"; };
+		D8A7B1DD1B203CA20073DC75 /* ScheduleBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleBL.h; sourceTree = "<group>"; };
+		D8A7B1DE1B203CA20073DC75 /* ScheduleBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleBL.m; sourceTree = "<group>"; };
+		D8A7B1E01B203CA20073DC75 /* BaseDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDAO.h; sourceTree = "<group>"; };
+		D8A7B1E11B203CA20073DC75 /* BaseDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDAO.m; sourceTree = "<group>"; };
+		D8A7B1E21B203CA20073DC75 /* DBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
+		D8A7B1E31B203CA20073DC75 /* DBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHelper.m; sourceTree = "<group>"; };
+		D8A7B1E41B203CA20073DC75 /* EventsDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsDAO.h; sourceTree = "<group>"; };
+		D8A7B1E51B203CA20073DC75 /* EventsDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsDAO.m; sourceTree = "<group>"; };
+		D8A7B1E61B203CA20073DC75 /* ScheduleDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleDAO.h; sourceTree = "<group>"; };
+		D8A7B1E71B203CA20073DC75 /* ScheduleDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleDAO.m; sourceTree = "<group>"; };
+		D8A7B1E91B203CA20073DC75 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		D8A7B1EA1B203CA20073DC75 /* Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Events.m; sourceTree = "<group>"; };
+		D8A7B1EB1B203CA20073DC75 /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		D8A7B1EC1B203CA20073DC75 /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
 		D8D917B31A78BC1E00490405 /* 2016Olympics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2016Olympics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D917B71A78BC1E00490405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8D917B81A78BC1E00490405 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -137,22 +153,6 @@
 		D8D917CC1A78BC1E00490405 /* 2016OlympicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2016OlympicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D917D11A78BC1E00490405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8D917D21A78BC1E00490405 /* _016OlympicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _016OlympicsTests.m; sourceTree = "<group>"; };
-		D8D917DE1A78BC6E00490405 /* EventsBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsBL.h; sourceTree = "<group>"; };
-		D8D917DF1A78BC6E00490405 /* EventsBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsBL.m; sourceTree = "<group>"; };
-		D8D917E01A78BC6E00490405 /* ScheduleBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleBL.h; sourceTree = "<group>"; };
-		D8D917E11A78BC6E00490405 /* ScheduleBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleBL.m; sourceTree = "<group>"; };
-		D8D917E51A78BC8300490405 /* BaseDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDAO.h; sourceTree = "<group>"; };
-		D8D917E61A78BC8300490405 /* BaseDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDAO.m; sourceTree = "<group>"; };
-		D8D917E71A78BC8300490405 /* DBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
-		D8D917E81A78BC8300490405 /* DBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHelper.m; sourceTree = "<group>"; };
-		D8D917E91A78BC8300490405 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
-		D8D917EA1A78BC8300490405 /* Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Events.m; sourceTree = "<group>"; };
-		D8D917EB1A78BC8300490405 /* EventsDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsDAO.h; sourceTree = "<group>"; };
-		D8D917EC1A78BC8300490405 /* EventsDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsDAO.m; sourceTree = "<group>"; };
-		D8D917EE1A78BC8300490405 /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
-		D8D917EF1A78BC8300490405 /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
-		D8D917F01A78BC8300490405 /* ScheduleDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleDAO.h; sourceTree = "<group>"; };
-		D8D917F11A78BC8300490405 /* ScheduleDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleDAO.m; sourceTree = "<group>"; };
 		D8D917F91A78BC8A00490405 /* create_load.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_load.sql; sourceTree = "<group>"; };
 		D8D917FA1A78BC8A00490405 /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
 		D8D9180D1A78BD0A00490405 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
@@ -290,6 +290,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D8A7B1DA1B203CA20073DC75 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				D8A7B1DB1B203CA20073DC75 /* EventsBL.h */,
+				D8A7B1DC1B203CA20073DC75 /* EventsBL.m */,
+				D8A7B1DD1B203CA20073DC75 /* ScheduleBL.h */,
+				D8A7B1DE1B203CA20073DC75 /* ScheduleBL.m */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		D8A7B1DF1B203CA20073DC75 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				D8A7B1E01B203CA20073DC75 /* BaseDAO.h */,
+				D8A7B1E11B203CA20073DC75 /* BaseDAO.m */,
+				D8A7B1E21B203CA20073DC75 /* DBHelper.h */,
+				D8A7B1E31B203CA20073DC75 /* DBHelper.m */,
+				D8A7B1E41B203CA20073DC75 /* EventsDAO.h */,
+				D8A7B1E51B203CA20073DC75 /* EventsDAO.m */,
+				D8A7B1E61B203CA20073DC75 /* ScheduleDAO.h */,
+				D8A7B1E71B203CA20073DC75 /* ScheduleDAO.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		D8A7B1E81B203CA20073DC75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8A7B1E91B203CA20073DC75 /* Events.h */,
+				D8A7B1EA1B203CA20073DC75 /* Events.m */,
+				D8A7B1EB1B203CA20073DC75 /* Schedule.h */,
+				D8A7B1EC1B203CA20073DC75 /* Schedule.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D8D917AA1A78BC1E00490405 = {
 			isa = PBXGroup;
 			children = (
@@ -312,10 +349,11 @@
 		D8D917B51A78BC1E00490405 /* 2016Olympics */ = {
 			isa = PBXGroup;
 			children = (
+				D8A7B1DA1B203CA20073DC75 /* BusinessLogic */,
+				D8A7B1DF1B203CA20073DC75 /* DataBase */,
+				D8A7B1E81B203CA20073DC75 /* Model */,
 				D8D917FD1A78BD0A00490405 /* GoogleAdMobAdsSdkiOS-6.6.1 */,
 				D8D917F81A78BC8A00490405 /* DBFile */,
-				D8D917E41A78BC8300490405 /* PersistenceLayer */,
-				D8D917DC1A78BC6E00490405 /* BusinessLogicLayer */,
 				D8D917BA1A78BC1E00490405 /* AppDelegate.h */,
 				D8D917BB1A78BC1E00490405 /* AppDelegate.m */,
 				D8D917BD1A78BC1E00490405 /* ViewController.h */,
@@ -368,36 +406,6 @@
 				D8D917D11A78BC1E00490405 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D8D917DC1A78BC6E00490405 /* BusinessLogicLayer */ = {
-			isa = PBXGroup;
-			children = (
-				D8D917DE1A78BC6E00490405 /* EventsBL.h */,
-				D8D917DF1A78BC6E00490405 /* EventsBL.m */,
-				D8D917E01A78BC6E00490405 /* ScheduleBL.h */,
-				D8D917E11A78BC6E00490405 /* ScheduleBL.m */,
-			);
-			path = BusinessLogicLayer;
-			sourceTree = "<group>";
-		};
-		D8D917E41A78BC8300490405 /* PersistenceLayer */ = {
-			isa = PBXGroup;
-			children = (
-				D8D917E51A78BC8300490405 /* BaseDAO.h */,
-				D8D917E61A78BC8300490405 /* BaseDAO.m */,
-				D8D917E71A78BC8300490405 /* DBHelper.h */,
-				D8D917E81A78BC8300490405 /* DBHelper.m */,
-				D8D917E91A78BC8300490405 /* Events.h */,
-				D8D917EA1A78BC8300490405 /* Events.m */,
-				D8D917EB1A78BC8300490405 /* EventsDAO.h */,
-				D8D917EC1A78BC8300490405 /* EventsDAO.m */,
-				D8D917EE1A78BC8300490405 /* Schedule.h */,
-				D8D917EF1A78BC8300490405 /* Schedule.m */,
-				D8D917F01A78BC8300490405 /* ScheduleDAO.h */,
-				D8D917F11A78BC8300490405 /* ScheduleDAO.m */,
-			);
-			path = PersistenceLayer;
 			sourceTree = "<group>";
 		};
 		D8D917F81A78BC8A00490405 /* DBFile */ = {
@@ -723,22 +731,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D918B61A78BD4E00490405 /* CountDownViewController.m in Sources */,
-				D8D917F61A78BC8300490405 /* Schedule.m in Sources */,
-				D8D917F41A78BC8300490405 /* Events.m in Sources */,
-				D8D917F51A78BC8300490405 /* EventsDAO.m in Sources */,
-				D8D917E21A78BC6E00490405 /* EventsBL.m in Sources */,
 				D8D918B91A78BD4E00490405 /* EventsViewController.m in Sources */,
-				D8D917F71A78BC8300490405 /* ScheduleDAO.m in Sources */,
 				D8D918BB1A78BD4E00490405 /* ScheduleViewController.m in Sources */,
-				D8D917F21A78BC8300490405 /* BaseDAO.m in Sources */,
 				D8D918BA1A78BD4E00490405 /* HomeViewController.m in Sources */,
 				D8D918B51A78BD4E00490405 /* AboutViewController.m in Sources */,
+				D8A7B1F31B203CA20073DC75 /* Events.m in Sources */,
+				D8A7B1F01B203CA20073DC75 /* DBHelper.m in Sources */,
 				D8D917BF1A78BC1E00490405 /* ViewController.m in Sources */,
 				D8D917BC1A78BC1E00490405 /* AppDelegate.m in Sources */,
-				D8D917E31A78BC6E00490405 /* ScheduleBL.m in Sources */,
 				D8D918B81A78BD4E00490405 /* EventsViewCell.m in Sources */,
-				D8D917F31A78BC8300490405 /* DBHelper.m in Sources */,
+				D8A7B1F21B203CA20073DC75 /* ScheduleDAO.m in Sources */,
+				D8A7B1EF1B203CA20073DC75 /* BaseDAO.m in Sources */,
+				D8A7B1F41B203CA20073DC75 /* Schedule.m in Sources */,
 				D8D918B71A78BD4E00490405 /* EventsDetailViewController.m in Sources */,
+				D8A7B1ED1B203CA20073DC75 /* EventsBL.m in Sources */,
+				D8A7B1EE1B203CA20073DC75 /* ScheduleBL.m in Sources */,
+				D8A7B1F11B203CA20073DC75 /* EventsDAO.m in Sources */,
 				D8D917B91A78BC1E00490405 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

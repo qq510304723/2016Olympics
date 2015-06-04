@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AF46A77C-3A88-4F87-85E8-51390AB7444D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>2016Olympics</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D6ED9DEEC8CA4C430EE431E2B93081303D5C4B8E</key>
+		<string>https://github.com/qq510304723/2016Olympics.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>2016Olympics.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D6ED9DEEC8CA4C430EE431E2B93081303D5C4B8E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/qq510304723/2016Olympics.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D6ED9DEEC8CA4C430EE431E2B93081303D5C4B8E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D6ED9DEEC8CA4C430EE431E2B93081303D5C4B8E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>2016Olympics</string>
+		</dict>
+	</array>
+</dict>
+</plist>
